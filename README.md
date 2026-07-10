@@ -76,5 +76,3 @@ Como culminación del proyecto, los datos procesados y estructurados se conectar
 
 ### 🚚 Eficiencia Logística
 * **Impacto del Tiempo en Ventas:** *Scatter plot* (gráfico de dispersión) evaluando la relación entre el monto de venta y los días de entrega.
-* **Variabilidad Regional:** *Boxplot* detallando la distribución y los retrasos en los días de entrega por región.
-* **Mapeo Logístico:** Mapa de calor/puntos para ubicar a los clientes más importantes y evaluar las zonas críticas para la optimización logística basada en los tiempos promedio de entrega.
