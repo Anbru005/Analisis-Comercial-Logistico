@@ -61,6 +61,19 @@ Utilizando `matplotlib`, se desarrollaron las siguientes visualizaciones para fa
 * **Matriz de Productos:** Gráfico destacando los artículos más vendidos vs. los de mayor margen.
 * **Volumen vs. Margen:** Gráfico combinado (doble eje) de ventas y margen promedio mensual para detectar meses de alto volumen pero baja rentabilidad.
 
+---
+
+## 📊 Fase 3: Modelado y Dashboard Ejecutivo (Power BI)
+Como culminación del proyecto, los datos procesados y estructurados se conectaron a Power BI para desarrollar un panel interactivo. Este dashboard traduce los hallazgos técnicos del EDA en una herramienta visual orientada a la toma de decisiones gerenciales.
+
+![Dashboard Rendimiento Comercial y Logístico](./dashboard_powerbi.png)
+
+**Principales Indicadores y Vistas Estratégicas:**
+* **Tarjetas de KPIs:** Monitoreo instantáneo de la Facturación Total ($197.7M), Margen Promedio (43.29%) y Tiempo de Entrega Promedio (2.3 días).
+* **Rendimiento Geográfico:** Mapa interactivo de concentración de ventas y ranking del Top 10 de Estados con mayor volumen de facturación.
+* **Estacionalidad y Rentabilidad:** Gráfico combinado analizando la tendencia mensual de Ventas vs. Margen de ganancia.
+* **Fricción Logística:** Gráfico de dispersión cruzando la facturación histórica con los tiempos de entrega por cliente, acompañado de un ranking de los estados con mayor demora logística.
+
 ### 🚚 Eficiencia Logística
 * **Impacto del Tiempo en Ventas:** *Scatter plot* (gráfico de dispersión) evaluando la relación entre el monto de venta y los días de entrega.
 * **Variabilidad Regional:** *Boxplot* detallando la distribución y los retrasos en los días de entrega por región.
