@@ -1,4 +1,4 @@
-# 📊 Análisis de Rendimiento Comercial y Logístico (SQL + Python)
+# 📊 Análisis de Rendimiento Comercial y Logístico (SQL, Python y Power BI)
 
 ## 📌 Resumen del Proyecto
 Este proyecto es una solución integral de análisis de datos que evalúa el rendimiento comercial y la eficiencia logística de la operación. A través de la conexión directa a una base de datos SQL, se extrajo una vista consolidada para procesarla en Python, realizando un Análisis Exploratorio de Datos (EDA) profundo y generando visualizaciones estratégicas que responden a preguntas clave del negocio.
@@ -41,7 +41,7 @@ Una vez obtenida la vista consolidada desde SQL, el flujo de trabajo continuó e
   * `Días de entrega`
   * `Ratio de impuestos`
 
-## 📈 Análisis Exploratorio de Datos (EDA)
+### 📈 Análisis Exploratorio de Datos (EDA)
 El análisis estadístico permitió descubrir *insights* fundamentales sobre la cartera y la operación:
 1. **Métricas Globales:** Cálculo de ventas totales, promedios, medianas y desviación estándar a nivel país.
 2. **Detección de Anomalías:** Identificación de registros fuera del rango normal (outliers) mediante análisis descriptivo.
@@ -49,17 +49,12 @@ El análisis estadístico permitió descubrir *insights* fundamentales sobre la 
 4. **Análisis de Rentabilidad:** Detección de nichos de oportunidad (productos con alta rentabilidad pero bajo volumen de ventas).
 5. **Validación Estadística:** Evaluación de diferencias significativas en el rendimiento entre distintos países y categorías de clientes.
 
-## 📊 Visualización Estratégica y Respuestas de Negocio
+### 📊 Visualización Estratégica y Respuestas de Negocio
 Utilizando `matplotlib`, se desarrollaron las siguientes visualizaciones para facilitar la toma de decisiones:
 
-### 🌍 Desempeño Comercial y Crecimiento
-* **Concentración Global:** Gráfico de barras horizontales detallando las zonas que concentran la mayor facturación.
-* **Evolución y Estacionalidad:** Análisis de tendencia mensual para el Top 3 de países.
-* **Curva de Crecimiento:** Gráfico de crecimiento global acumulado para identificar qué países impulsan el crecimiento anual.
-
-### 💰 Rentabilidad
-* **Matriz de Productos:** Gráfico destacando los artículos más vendidos vs. los de mayor margen.
-* **Volumen vs. Margen:** Gráfico combinado (doble eje) de ventas y margen promedio mensual para detectar meses de alto volumen pero baja rentabilidad.
+* **🌍 Desempeño Comercial y Crecimiento:** Gráfico de barras de concentración global, análisis de estacionalidad (Top 3 países) y curva de crecimiento global acumulado.
+* **💰 Rentabilidad:** Gráfico destacando artículos más vendidos vs. mayor margen y gráfico de doble eje (ventas vs. margen promedio mensual) para detectar picos de bajo margen.
+* **🚚 Eficiencia Logística:** *Scatter plot* evaluando la relación entre el monto de venta y días de entrega, *Boxplot* de variabilidad regional de retrasos y mapa logístico para ubicar clientes importantes según su tiempo promedio de entrega.
 
 ---
 
@@ -73,6 +68,3 @@ Como culminación del proyecto, los datos procesados y estructurados se conectar
 * **Rendimiento Geográfico:** Mapa interactivo de concentración de ventas y ranking del Top 10 de Estados con mayor volumen de facturación.
 * **Estacionalidad y Rentabilidad:** Gráfico combinado analizando la tendencia mensual de Ventas vs. Margen de ganancia.
 * **Fricción Logística:** Gráfico de dispersión cruzando la facturación histórica con los tiempos de entrega por cliente, acompañado de un ranking de los estados con mayor demora logística.
-
-### 🚚 Eficiencia Logística
-* **Impacto del Tiempo en Ventas:** *Scatter plot* (gráfico de dispersión) evaluando la relación entre el monto de venta y los días de entrega.
